@@ -1,5 +1,6 @@
 import { BarChart3, Car, AlertTriangle, Users, Clock, Zap, Eye, Moon, Sun } from 'lucide-react';
 import styled from 'styled-components';
+import CameraView from './CameraView';
 
 const HeaderWrapper = styled.div`
   width: 100%;
@@ -122,6 +123,7 @@ const Header = ({ darkMode = false, toggleDarkMode = () => {} }) => {
           >
             {darkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
           </IconButton>
+          <CameraView darkMode={darkMode}/>
         </RightSection>
       </HeaderContainer>
     </HeaderWrapper>

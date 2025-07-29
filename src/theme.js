@@ -12,6 +12,9 @@ export const lightTheme = {
     error: "#ef4444",
     info: "#60a5fa", // <-- Añadido para variantes de estado/info
   },
+  modal: {
+    background: "#2563eb"
+  }
 };
 
 export const darkTheme = {
@@ -28,4 +31,7 @@ export const darkTheme = {
     error: "#ef4444",
     info: "#60a5fa", // <-- Añadido para variantes de estado/info
   },
+  modal: {
+    background: "#0f172a"
+  }
 };
